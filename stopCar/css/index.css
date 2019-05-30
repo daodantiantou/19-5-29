@@ -1,0 +1,37 @@
+body{
+	width: 100%;
+	background: url('../img/bg (1).png') no-repeat center center;
+	background-attachment: fixed;
+    padding: 0 0.4rem;
+    /* 内间距 上下为0 左右为0.4rem */
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+}
+.header{
+	height: .9rem;
+    line-height: .9rem;
+    color: #fff;
+    border-bottom: 1px solid #396e95;
+}
+.header .left{
+	float: left;
+	/* 浮动到左边 */
+    height: 100%;
+    overflow: hidden;
+    /* 超出部分隐藏 */
+   
+}
+.header .left img{
+	height: .4rem;
+    margin: 0.25rem 0;
+    /* 上下间距为0.25rem 左右间距为0 */
+    vertical-align: top;
+}
+.header .right{
+	float: right;
+	/* 浮动到左边 */
+    height: 100%;
+    overflow: hidden;
+    /* 超出部分隐藏 */
+}
